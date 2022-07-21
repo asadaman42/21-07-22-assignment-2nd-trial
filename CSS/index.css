@@ -209,7 +209,7 @@ h2{
 }
 
 .section-1:hover .marcelo{
-    transform: scale(0.5);
+    transform: scale(1);
 }
 
 .half-width{
@@ -351,6 +351,15 @@ h2{
     margin: 20px auto;
     background-color: rgb(17, 17, 17);
     border-radius: 25px;
+}
+
+.section-1:hover .linkopen-1{
+    transform: scale(1);
+
+}
+
+.section-1:hover .marcelo{
+    transform: scale(0.5);
 }
 
 .half-width{
