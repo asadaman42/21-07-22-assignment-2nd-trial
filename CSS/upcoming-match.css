@@ -187,6 +187,17 @@ h2{
     
 }
 
+
+
+
+
+
+
+
+/* ------------------------------
+        for Mobile
+    -----------------------------*/
+
 @media screen and (max-width: 476px){
      /* ------------------------
         Section-1
@@ -199,8 +210,23 @@ h2{
     margin: 20px auto;
     background-color: rgb(17, 17, 17);
     border-radius: 25px;
-    
+}
 
+.section-1:hover .linkopen-1{
+    transform: none;
+
+}
+
+.section-1:hover .marcelo{
+    transform: none;
+}
+
+.marcelo{
+    transition: none;
+}
+
+.linkopen-1{
+    transition: none;
 }
 
 .half-width{
@@ -351,6 +377,17 @@ h2{
     
 }
 
+
+
+
+
+
+
+
+/* -------------------------------------
+            For tablet view
+    ------------------------------------*/
+
 @media screen and (min-width: 477px) and (max-width: 992px) {
     .section-1{
     height: 398px;
@@ -359,6 +396,23 @@ h2{
     margin: 20px auto;
     background-color: rgb(17, 17, 17);
     border-radius: 25px;
+}
+
+.section-1:hover .linkopen-1{
+    transform: none;
+
+}
+
+.section-1:hover .marcelo{
+    transform: none;
+}
+
+.marcelo{
+    transition: none;
+}
+
+.linkopen-1{
+    transition: none;
 }
 
 .half-width{

@@ -189,6 +189,12 @@ h2{
     
 }
 
+
+
+/* ------------------------
+        for mobile view
+--------------------------- */
+
 @media screen and (max-width: 476px){
      /* ------------------------
         Section-1
@@ -204,12 +210,20 @@ h2{
 }
 
 .section-1:hover .linkopen-1{
-    transform: scale(1);
+    transform: none;
 
 }
 
 .section-1:hover .marcelo{
-    transform: scale(1);
+    transform: none;
+}
+
+.marcelo{
+    transition: none;
+}
+
+.linkopen-1{
+    transition: none;
 }
 
 .half-width{
@@ -343,6 +357,15 @@ h2{
     
 }
 
+
+
+
+
+/* ________________________
+      for tabet view
+      _____________________ */
+
+
 @media screen and (min-width: 477px) and (max-width: 992px) {
     .section-1{
     height: 398px;
@@ -354,12 +377,20 @@ h2{
 }
 
 .section-1:hover .linkopen-1{
-    transform: scale(1);
+    transform: none;
 
 }
 
 .section-1:hover .marcelo{
-    transform: scale(0.5);
+    transform: none;
+}
+
+.marcelo{
+    transition: none;
+}
+
+.linkopen-1{
+    transition: none;
 }
 
 .half-width{
